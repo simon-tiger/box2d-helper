@@ -1,0 +1,113 @@
+<html>
+<head>
+<style>
+  body {
+    font-family: Verdana, sans-serif;
+  }
+
+  .container {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50vw;
+    height: 76vh;
+    margin: 0 auto;
+    background-color: #CCC;
+  }
+
+  .sidebar {
+    width: 22vw;
+    height: 85vh;
+    background-color: #CCC;
+  }
+
+  h1 {
+    width: 50vw;
+    margin: 0 auto;
+  }
+
+  *, a:link {
+    color: #dc3912;
+  }
+
+  a:visited {
+    color: #b82e12;
+  }
+
+  .subheading {
+    position: relative;
+    left: 41vw;
+  }
+
+  .method_name {
+    font-size: 22px;
+  }
+
+  table {
+    width: 99%;
+  }
+
+  table tr {
+    color: #FFF;
+  }
+
+  table tr:nth-child(even) {
+    background-color: #2A2F38;
+  }
+
+  table tr:nth-child(odd) {
+    background-color: #161719;
+  }
+
+  table tr td:nth-child(1) {
+    font-weight: bold;
+  }
+  </style>
+</head>
+<body>
+  <h1>Box2D Helper</h1>
+  <span class="subheading">Reference</span>
+  <div class="container">
+    <p class="method_name">drawJoint(scale, world, joint)</p>
+    <p>Renders a joint in a box2d world to the processing window.</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>scale</td>
+          <td>float</td>
+          <td>scale factor for physics. See also: <a href="../scale_methods/scaleFactor.html">scaleFactor</a></td>
+        </tr>
+        <tr>
+          <td>world</td>
+          <td>World</td>
+          <td>world that the joint is in. See also: <a href="../create_methods/createWorld.html">createWorld</a></td>
+        </tr>
+        <tr>
+          <td>joint</td>
+          <td>Joint</td>
+          <td>joint that this function renders.</td>
+        </tr>
+        <tr>
+          <td>Returns</td>
+          <td>void</td>
+        </tr>
+      </tbody>
+    </table>
+    <h2>Related:</h2>
+    <ul>
+      <li><a href="debugDraw.html">debugDraw()</a></li>
+      <li><a href="drawShape.html">drawShape()</a></li>
+    </ul>
+  </div>
+  <div class="sidebar">
+    <p><a href="../index.html">Homepage</a></p>
+  </div>
+</body>
+</html>
